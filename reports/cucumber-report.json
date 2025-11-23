@@ -1,0 +1,84 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "validate-the-presence-of-\"quality\"-in-job-titles;verify-job-listings-include-a-title-with-\"quality\"",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Verify job listings include a title with \"Quality\"",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1384413599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Open the Careers page",
+            "match": {
+              "location": "src\\test\\steps\\JobsSteps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3195089399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I retrieve the list of all open job titles",
+            "match": {
+              "location": "src\\test\\steps\\JobsSteps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2562255099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should see at least one job title that contains the word \"Quality\"",
+            "match": {
+              "location": "src\\test\\steps\\JobsSteps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5303899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 976460299
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "validate-the-presence-of-\"quality\"-in-job-titles",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Validate the presence of \"Quality\" in job titles",
+    "tags": [],
+    "uri": "src\\test\\features\\Careers.feature"
+  }
+]
